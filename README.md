@@ -1,5 +1,5 @@
 # Incipient Slip Detection PapillArray
-Official implementation of paper [Robust Learning-Based Incipient Slip Detection using the PapillArray Optical Tactile Sensor for Improved Robotic Gripping](https://arxiv.org/pdf/2307.04011.pdf)
+Official implementation of paper: [Robust Learning-Based Incipient Slip Detection using the PapillArray Optical Tactile Sensor for Improved Robotic Gripping](https://arxiv.org/pdf/2307.04011.pdf)
 
 # Installation
 You need to download our dataset from HERE and create a folder named 'datasets' in the root of your project. Then, place the data into this folder.
