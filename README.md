@@ -19,7 +19,7 @@ You should download our dataset from [THIS LINK](https://drive.google.com/drive/
 │       ├── pillar_data_train.npy
 │       └── pillar_data_test.npy
 ```
-It's particularly worth noting that the data in **merge/dataset_train.npy** has already undergone data augmentation and is ready for neural network training. This contains a dataset prepared for the final deployment model. Based on our tests, training directly with this data does not result in overfitting. If you need to split the data into training and test sets, you can use the files in pillar_data and the scripts in **DATA_xx** to process.
+It's particularly worth noting that the data in **merge/dataset_train.npy** has already undergone data augmentation and is ready for neural network training. This contains a dataset prepared for the final deployment model. Based on our tests, training directly with this data does not result in overfitting. If you need to split the data into training and test sets, you can use the files in **pillar_data** and the scripts in **DATA_xx** to process.
 
 ## Pre-trained models
 We also provide pretrained models in the **pre-trained-models** directory of this repository.
