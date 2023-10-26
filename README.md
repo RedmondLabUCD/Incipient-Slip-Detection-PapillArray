@@ -21,5 +21,17 @@ You should download our dataset from [THIS LINK](https://drive.google.com/drive/
 ```
 It's particularly worth noting that the data in **merge/dataset_train.npy** has already undergone data augmentation and is ready for neural network training. This contains a dataset prepared for the final deployment model. Based on our tests, training directly with this data does not result in overfitting. If you need to split the data into training and test sets, you can use the files in **pillar_data** and the scripts in **DATA_xx** to process.
 
+For evaluating the model using all the gripping data collected from the gripper, you'll need to download it locally and then specify the exact path to the data. We've marked the sections in the script where edits are needed and provided examples for reference.
+
 ## Pre-trained models
 We also provide pretrained models in the **pre-trained-models** directory of this repository.
+
+## Cite this work
+```
+@article{incipient-slip-papillarray,
+  title={Robust Learning-Based Incipient Slip Detection using the PapillArray Optical Tactile Sensor for Improved Robotic Gripping},
+  author={Wang, Qiang and Ulloa, Pablo Martinez and Burke, Robert and Bulens, David Cordova and Redmond, Stephen J},
+  journal={arXiv preprint arXiv:2307.04011},
+  year={2023}
+}
+```
