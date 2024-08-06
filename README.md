@@ -9,7 +9,7 @@ Official implementation of paper: [Robust Learning-Based Incipient Slip Detectio
     pip install -r requirements.txt
 
 ## Data
-You should download our dataset from [THIS LINK](https://drive.google.com/drive/folders/1wGuRzLHXnhaB8dtsyesGwO4MZjJLhYRW?usp=drive_link) and ensure that you specify the local location of these datasets in the script's arguments. Alternatively, you need to create a folder named "datasets" at the root of your project and organize the data as follows:
+You should download our dataset from [THIS LINK](https://zenodo.org/records/13228084?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImM2NTE2MGZhLWM1ZWMtNDVjYi1hNmU5LWFmOWY3YjRmODQ3MyIsImRhdGEiOnt9LCJyYW5kb20iOiI3Yjg5YTUwYjM4MWYwNWJkOTUxN2YwMTE5MmI0NjIwZSJ9.QcjCzNmS4VQ0eVNRXgMfauVk0R5ggBvWf5HAdT8twfhAtYrb5k4Y1DmqMBu0h5MnRq_V3jBpyoxJCdNFPTniSA) and ensure that you specify the local location of these datasets in the script's arguments. Alternatively, you need to create a folder named "datasets" at the root of your project and organize the data as follows:
 ```
 .
 ├── datasets/
